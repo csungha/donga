@@ -1,0 +1,196 @@
+/* Icons */
+
+	ul.icons{
+		cursor: default;
+		font-family: "ProximaNova";
+		width: 100%;
+		margin: 0 0 0 2em;
+		padding : 0;
+		text-align: left;
+
+	}
+
+		ul.icons li {
+			display: inline-block;
+			vertical-align: top;
+			width: 49%;
+			text-align: left;
+			margin-bottom: 1em;
+		}
+		ul.icons a {
+			display: inline-block;
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
+			text-align: center;
+			border: 0;
+		}
+		ul.icons p {
+			margin: 0.5em 0 0.5em 0;
+		}
+		ul.icons span {
+			vertical-align: super;
+		}
+		ul.icons .logo {
+			font-size: 1.5rem;
+			font-weight: bold;
+		}
+		ul.icons .small {
+			font-size: 0.8rem;
+			font-family: "Noto Sans KR";
+		}
+		ul.icons .kr {
+			font-family: "Noto Sans KR";
+			vertical-align: super;
+			font-size: 0.9rem;
+		}
+
+		ul.icons li:first-child {
+			text-align: left;}
+		 
+		ul.icons li:last-child {
+			text-align: right;}
+
+	.m_hidden {
+		display:none;
+	}
+@media screen and (max-width: 1280px) {
+	.m_hidden {
+		display:block;
+	}
+	ul.icons li {
+		width: 50%;
+	}
+	ul.icons li:last-child {
+			text-align: left;}
+	
+}
+
+/* Footer */
+@media screen and (max-width: 1920px)
+	#footer {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		position: relative;
+		margin: 0;
+		line-height: 1em;
+		padding: 1.5em;
+		background: #000000	;
+		color: rgba(255, 255, 255, 1);
+		overflow: hidden;
+	}
+	span {
+		font-size: 12pt;
+	}
+}	
+	footer {
+		background-color: #000000;
+		text-align: center;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+		cursor: default;
+		height: 5em;
+		line-height: 3.5em;
+		font-family: 'Noto Sans KR';
+	}
+
+	#footer {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		position: relative;
+		margin: 0;
+		line-height: 1em;
+		padding: 1em 1.5em 1em 2em;
+		background: #000000	;
+		color: rgba(255, 255, 255, 1);
+		overflow: hidden;
+	}
+		#footer > * {
+			margin-bottom: 0;
+		}
+
+		#footer a {
+			color: inherit;
+		}
+
+			#footer a:hover {
+				color: #b9babb;
+			}
+
+		#footer ul.menu {
+			margin: 0;
+		}
+
+			#footer ul.menu li {
+				border-left-color: rgba(0, 0, 0, 1);
+				font-size: 0.9rem;
+			}
+
+		@media screen and (max-width: 480px) {
+
+			.main > .content {
+				max-width: calc(100% - 1.5em);
+			}
+
+		}
+		@media screen and (max-width: 1000px) {
+
+			#footer {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-moz-justify-content: center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
+				justify-content: center;
+				line-height: 1.5em;
+				text-align: center;
+				padding: 2em 1em 2em 1em;
+			}
+
+				#footer > * {
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer ul.menu li {
+				border-left: none;
+				display: block;
+				line-height: inherit;
+				margin: 0.25em 0 0 0;
+				padding: 0.25em 0 0 0;
+			}
+
+				#footer ul.menu li:first-child {
+					margin-top: 0;
+					padding-top: 0;
+				}
+
+		}
